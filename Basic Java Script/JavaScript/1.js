@@ -1,0 +1,1 @@
+console.log("External Js file calling");
