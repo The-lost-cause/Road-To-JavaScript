@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>All about Forms</h1>
+    <form name="my">
+        <input name="one" value="1">
+        <input name="two" value="2">
+    </form>
+    
+    <form>
+        <input type="radio" name="age" value="10">
+        <input type="radio" name="age" value="20">
+    </form>
+
+    <select id="select">
+        <option value="apple">Apple</option>
+        <option value="pear">Pear</option>
+        <option value="banana">Banana</option>
+    </select>
+    
+    <style>
+        .invalid { border-color: red;}
+        #error { color: red} 
+    </style>
+    Your email please : <input type="email" id="input">
+    <div id="error"></div>
+
+    <ul>
+        <li tabindex="1">One</li>
+        <li tabindex="0">Zero</li>
+        <li tabindex="2">Two</li>
+        <li tabindex="-1">Minus one</li>
+      </ul>
+      <style>
+  li { cursor: pointer; }
+  :focus { outline: 1px dashed green; }
+</style>
+</body>
+<script src="../Js/18.js"></script>
+</html>
