@@ -1,0 +1,11 @@
+div {
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid black;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    min-height: 400px;
+    background-color: hsl(221, 87%, 66%);
+}
