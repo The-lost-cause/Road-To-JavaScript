@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser-Events</title>
+</head>
+<body>
+    <h1>Mouse Events: Click, ContextMenu, MouseMove, MouseOver/MouseOut, Mousedown/MouseUp</h1>
+    <h2>Keyboard Events: Keydown, KeyUp</h2>
+    <h3>Form element Events: Submit, Focus</h3>
+    <h4>Document Events: DOMContentLoaded</h4>
+    <h5>Css Events: Transitioned</h5>
+
+    <!-- HTML Attribute is not a Convient Way for Creating Events Though-->
+    <input value="Click Me" onclick="alert('CLIKCED')" type="button" />
+
+    <!-- Calling In JS for Events-->
+    <input type="button" onclick="countRabbits()" value="Count Rabbits Through Js" />
+
+    <hr />
+
+    <input id="elem" type="button" value="DOM Property HTML + JS" />
+
+    <hr />
+    <!-- The value of this inside a handler is the ELEMENT, The one which has the handler on it-->
+    <button onclick="alert(this.innerHTML)">This Understanding in an Event</button>
+
+    <input type="button" value="Undestand" id="button" />
+
+
+</body>
+<script src="../JavaScript/39.js"></script>
+</html>

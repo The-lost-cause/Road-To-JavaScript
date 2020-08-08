@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopping Bubbling</title>
+</head>
+<body>
+    <h1>Stopping-Bubbling</h1>
+    <h2>event.stopPropagation: Stops the move upwards, but on the current element all other handlers will run</h2>
+    <h3>event.stopImmediatePropagation(): To stop the bubbling and prevent handlers on the current element from running</h3>
+    <div id="div">
+        <div>Understanding event.stopProagation</div>
+        <hr />
+        <button id="button">Click Me</button>
+        <!--Else You can do this too
+        <button id='button' onlcick="event.stopPropagation()">Click Me</button>
+        -->
+    </div>
+</body>
+<script src="../JavaScript/45.js"></script>
+</html>

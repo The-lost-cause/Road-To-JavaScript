@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser-Default-Actions</title>
+    <link href="../Css/12.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Preventing browser actions: return false/ event.preventDefault()</h1>
+    <!-- Example:1-->
+    <ul id="menu" class="menu">
+        <li><a href="/html">HTML</a></li>
+        <li><a href="/javascript">JavaScript</a></li>
+        <li><a href="/css">CSS</a></li>
+      </ul>
+      <h2>Follow-up Events: If we prevent the first event, there will be no second</h2>
+      <input value="Focus works" onfocus="this.value=''">
+      <input onmousedown="return false" onfocus="this.value=''" value="Click me">
+
+</body>
+<script src="../JavaScript/51.js"></script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behaviour-Pattern</title>
+</head>
+<body>
+    <h1>The 'behaviour' Pattern</h1>
+    <h2>We can add a custom-attribute to an element that describe it's behavior</h2>
+    <h3>A document-wide handler tracks events, and if an event happens on an attributed elements-performs the ACTION</h3>
+
+    <!-- Example:1 Here the attribute data-counter adds a behaviour-->
+    Counter: <input type="button" value="1" data-counter>
+    One more counter: <input type="button" value="2" data-counter>
+
+    <!-- Another Example: Toggler-->
+    <button data-toggle-id="subscribe-mail">
+        Show the subscription form
+      </button>
+      
+      <form id="subscribe-mail" hidden>
+        Your mail: <input type="email">
+      </form>
+</body>
+<script src="../JavaScript/50.js"></script>
+</html>
